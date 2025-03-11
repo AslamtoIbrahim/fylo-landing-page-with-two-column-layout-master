@@ -6,8 +6,8 @@ import quote from '../../../public/source/images/icon-quotes.svg'
  
 const Testimonial = () => {
   return (
-    <div className="rounded-md py-4 px-6 xl:p-8 flex flex-col gap-2 my-8
-    text-primary-dark-blue bg-white shad font-open-sans   text-[12px] lg:text-[14px] xl:text-base">
+    <div className="rounded-md py-4 px-6 xl:p-8 flex flex-col gap-2 my-8 md:mx-36 lg:mx-0 lg:w-96 lg:justify-self-start
+    text-primary-dark-blue bg-white shad font-open-sans text-[12px]  md:text-[13px] lg:text-[14px] xl:text-base">
       <Image src={quote} alt="quote"/>
       <p>Fylo has improved our team productivity by an order of magnitude. Since 
       making the switch our team has become a well-oiled collaboration machine.</p>
