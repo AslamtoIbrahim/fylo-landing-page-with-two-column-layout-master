@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import img from "../../../public/source/images/illustration-1.svg";
-import Button from "./Button";
 import Input from "./Input";
 
 const Intro = () => {
